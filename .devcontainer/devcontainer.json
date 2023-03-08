@@ -1,0 +1,6 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "postCreateCommand": "bash -i -c '(echo y && echo y) | sudo unminimize; sudo apt install man-db manpages-posix -y'"
+	
+}
