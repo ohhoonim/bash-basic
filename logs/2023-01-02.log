@@ -1,0 +1,163 @@
+vscode ➜ /workspaces/bash-basic (master) $ whereis java
+java: /usr/share/java
+vscode ➜ /workspaces/bash-basic (master) $ whereis sh
+sh: /usr/bin/sh /usr/share/man/man1/sh.1posix.gz /usr/share/man/man1/sh.1.gz
+vscode ➜ /workspaces/bash-basic (master) $ whichis sh
+bash: whichis: command not found
+vscode ➜ /workspaces/bash-basic (master) $ which sh
+/usr/bin/sh
+vscode ➜ /workspaces/bash-basic (master) $ find . *.md
+.
+./.git
+./.git/refs
+./.git/refs/tags
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./.git/refs/remotes/origin/HEAD
+./.git/refs/heads
+./.git/refs/heads/master
+./.git/config
+./.git/hooks
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/update.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/push-to-checkout.sample
+./.git/packed-refs
+./.git/info
+./.git/info/exclude
+./.git/objects
+./.git/objects/info
+./.git/objects/pack
+./.git/objects/pack/pack-fcd45268df60fe417702dd757e453b427fb34e2a.pack
+./.git/objects/pack/pack-fcd45268df60fe417702dd757e453b427fb34e2a.idx
+./.git/branches
+./.git/HEAD
+./.git/logs
+./.git/logs/refs
+./.git/logs/refs/remotes
+./.git/logs/refs/remotes/origin
+./.git/logs/refs/remotes/origin/HEAD
+./.git/logs/refs/heads
+./.git/logs/refs/heads/master
+./.git/logs/HEAD
+./.git/description
+./.git/FETCH_HEAD
+./.git/index
+./.devcontainer
+./.devcontainer/devcontainer.json
+./파일다루기.md
+파일다루기.md
+vscode ➜ /workspaces/bash-basic (master) $ find -name *.md
+./파일다루기.md
+vscode ➜ /workspaces/bash-basic (master) $ find / -name *.sh
+find: ‘/root’: Permission denied
+/usr/bin/gettext.sh
+/usr/share/dpkg/sh/dpkg-error.sh
+/usr/share/debconf/confmodule.sh
+/usr/share/zsh/functions/Completion/Unix/_todo.sh
+/usr/lib/init/vars.sh
+find: ‘/var/cache/ldconfig’: Permission denied
+find: ‘/var/cache/apt/archives/partial’: Permission denied
+find: ‘/var/lib/apt/lists/partial’: Permission denied
+find: ‘/proc/tty/driver’: Permission denied
+find: ‘/proc/1/task/1/fd’: Permission denied
+find: ‘/proc/1/task/1/fdinfo’: Permission denied
+find: ‘/proc/1/task/1/ns’: Permission denied
+find: ‘/proc/1/fd’: Permission denied
+find: ‘/proc/1/map_files’: Permission denied
+find: ‘/proc/1/fdinfo’: Permission denied
+find: ‘/proc/1/ns’: Permission denied
+find: ‘/proc/42/task/42/fd’: Permission denied
+find: ‘/proc/42/task/42/fdinfo’: Permission denied
+find: ‘/proc/42/task/42/ns’: Permission denied
+find: ‘/proc/42/fd’: Permission denied
+find: ‘/proc/42/map_files’: Permission denied
+find: ‘/proc/42/fdinfo’: Permission denied
+find: ‘/proc/42/ns’: Permission denied
+find: ‘/proc/11415/task/11415/fd’: Permission denied
+find: ‘/proc/11415/task/11415/fdinfo’: Permission denied
+find: ‘/proc/11415/task/11415/ns’: Permission denied
+find: ‘/proc/11415/fd’: Permission denied
+find: ‘/proc/11415/map_files’: Permission denied
+find: ‘/proc/11415/fdinfo’: Permission denied
+find: ‘/proc/11415/ns’: Permission denied
+/etc/init.d/hwclock.sh
+/etc/profile.d/01-locale-fix.sh
+/etc/profile.d/00-restore-env.sh
+find: ‘/etc/ssl/private’: Permission denied
+/home/vscode/.oh-my-zsh/oh-my-zsh.sh
+/home/vscode/.oh-my-zsh/plugins/drush/drush.complete.sh
+/home/vscode/.oh-my-zsh/plugins/zsh-navigation-tools/doc/install.sh
+/home/vscode/.oh-my-zsh/plugins/catimg/catimg.sh
+/home/vscode/.oh-my-zsh/plugins/wd/_wd.sh
+/home/vscode/.oh-my-zsh/plugins/wd/wd.sh
+/home/vscode/.oh-my-zsh/plugins/emacs/emacsclient.sh
+/home/vscode/.oh-my-zsh/plugins/heroku-alias/heroku.alias.sh
+/home/vscode/.oh-my-zsh/plugins/gitfast/git-prompt.sh
+/home/vscode/.oh-my-zsh/tools/install.sh
+/home/vscode/.oh-my-zsh/tools/changelog.sh
+/home/vscode/.oh-my-zsh/tools/upgrade.sh
+/home/vscode/.oh-my-zsh/tools/check_for_upgrade.sh
+/home/vscode/.oh-my-zsh/tools/uninstall.sh
+/home/vscode/.oh-my-zsh/tools/require_tool.sh
+/home/vscode/.oh-my-zsh/tools/theme_chooser.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/ms-vscode.js-debug/src/terminateProcess.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/askpass-empty.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/ssh-askpass-empty.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/git-editor-empty.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/git-editor.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/ssh-askpass.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/extensions/git/dist/askpass.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/server.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/out/vs/base/node/ps.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/out/vs/base/node/cpuUsage.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/bin/helpers/browser.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/node_modules/vscode-encrypt/getOpenSSL.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+/vscode/vscode-server/bin/linux-arm64/5e805b79fcb6ba4c2d23712967df89a089da575b/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/ms-vscode.js-debug/src/terminateProcess.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-empty.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/ssh-askpass-empty.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/git-editor-empty.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/git-editor.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/ssh-askpass.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/server.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/base/node/ps.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/base/node/cpuUsage.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/vscode-encrypt/getOpenSSL.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+/vscode/vscode-server/bin/linux-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/ms-vscode.js-debug/src/terminateProcess.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-empty.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/ssh-askpass-empty.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/git-editor-empty.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/git-editor.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/ssh-askpass.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/server.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/base/node/ps.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/base/node/cpuUsage.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/vscode-encrypt/getOpenSSL.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+/vscode/vscode-server/bin/alpine-arm64/92da9481c0904c6adfe372c12da3b7748d74bdcb/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh
+vscode ➜ /workspaces/bash-basic (master) $ find /etc/bin -name *.sh
+find: ‘/etc/bin’: No such file or directory
+vscode ➜ /workspaces/bash-basic (master) $ find /etc -name *.sh
+/etc/init.d/hwclock.sh
+/etc/profile.d/01-locale-fix.sh
+/etc/profile.d/00-restore-env.sh
